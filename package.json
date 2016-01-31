@@ -1,0 +1,32 @@
+{
+  "name": "node-facepp-sdk",
+  "version": "0.0.1",
+  "description": "a face++ sdk for node version",
+  "main": "lib/apis.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "request": "^2.69.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha",
+		"build": "babel src --out-dir lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/JiaxiangZheng/node-facepp-sdk.git"
+  },
+  "keywords": [
+    "face++",
+    "sdk",
+    "node"
+  ],
+  "author": "JiaxiangZheng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JiaxiangZheng/node-facepp-sdk/issues"
+  },
+  "homepage": "https://github.com/JiaxiangZheng/node-facepp-sdk#readme"
+}
