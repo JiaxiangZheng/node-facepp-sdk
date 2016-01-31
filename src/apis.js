@@ -22,15 +22,15 @@ const api_tree = {
     grouping: ''
   },
   person: {
-    'delete': '',
+    delete: '',
     add_face: '',
     remove_face: '',
     set_info: '',
     get_info: ''
   },
   faceset: {
-    'create': '',
-    'delete': '',
+    create: '',
+    delete: '',
     add_face: '',
     remove_face: '',
     set_info: '',
