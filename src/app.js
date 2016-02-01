@@ -1,4 +1,11 @@
+/*!
+ * node-facepp-sdk - lib/app.js
+ * Copyright(c) 2016 Jiaxiang Zheng <jiaxiang.zheng135@gmail.com>
+ * MIT Licensed
+ */
+
 'use strict';
+
 let FacePP = require('./apis');
 
 let conf = require('../conf');

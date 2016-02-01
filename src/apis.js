@@ -1,4 +1,11 @@
+/*!
+ * node-facepp-sdk - lib/apis.js
+ * Copyright(c) 2016 Jiaxiang Zheng <jiaxiang.zheng135@gmail.com>
+ * MIT Licensed
+ */
+
 'use strict';
+
 let request = require('request');
 let querystring = require('querystring');
 
