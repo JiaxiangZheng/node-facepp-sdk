@@ -62,13 +62,13 @@ const api_tree = {
 }
 
 class FacePP {
-	constructor(config) {
-		this.SERVER_URL = config.SERVER_URL;
-		this.API_KEY = config.API_KEY;
+  constructor(config) {
+    this.SERVER_URL = config.SERVER_URL;
+    this.API_KEY = config.API_KEY;
     this.API_SECRET = config.API_SECRET;
 
     this.init();
-	}
+  }
 
   init() {
     this._flatten(api_tree, this, []);

@@ -17,8 +17,8 @@ var facePP = new FacePP({
 });
 
 facePP.detection.detect({
-	url: 'http://s10.mogucdn.com/p1/160130/160_ie3tsytcmnrgkobwgyzdambqgayde_960x402.jpg',
-	attribute: 'glass,pose,landmark,gender,age,race,smiling'
+  url: 'http://s10.mogucdn.com/p1/160130/160_ie3tsytcmnrgkobwgyzdambqgayde_960x402.jpg',
+  attribute: 'glass,pose,landmark,gender,age,race,smiling'
 }).then((result) => {
   let faces = result.face;
 
